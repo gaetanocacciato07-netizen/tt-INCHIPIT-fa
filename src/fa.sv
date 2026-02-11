@@ -13,9 +13,9 @@ module fa_module
     logic i0, i1, i2;
 
     xor u0(i0, A, B);
-
+    xor u1(S, Cin, i0);
     and u2(i1, A, B);
-
+    and u3(i2, Cin, i0);
     or u4(Cout, i1, i2);
 
 endmodule: fa_module
