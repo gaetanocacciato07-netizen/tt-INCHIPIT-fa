@@ -1,5 +1,5 @@
 //  Module: fa
-// Che bello imparare il SystemVerilog 
+// Che bello imparare il SystemVerilog
 
 module fa_module
     (
